@@ -1,0 +1,350 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  margin: 0%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  height: 40px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.logoText {
+  margin-left: 50px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 45px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+
+.logoText2 {
+  color: aqua;
+}
+
+.menu {
+  padding-right: 70px;
+  display: flex;
+  gap: 10px;
+}
+
+.menu a {
+  color: white;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+.image-container {
+  background-color: aqua;
+  height: 207px;
+  margin-top: 90px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.main {
+  background-color: lightgray;
+  height: 120px;
+  margin-top: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.section {
+  background-color: lightgray;
+  height: 980px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.peripherals {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  padding-top: 50px;
+}
+
+.consoles {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.article {
+  height: 450px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sobrenos {
+  width: 650px;
+  margin-left: 38px;
+}
+
+.titulo {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: bolder;
+  color: aqua;
+}
+
+.textoprincipal {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 15px;
+}
+
+.frasefinal {
+  color: aqua;
+  font-weight: bolder;
+}
+
+.formulario {
+  background-color: lightgray;
+  font-family: "Montserrat";
+}
+
+.titulo-formulario {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-weight: bolder;
+}
+
+.entradas {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.entradas input,
+select {
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.anexo {
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.anexo:hover {
+  border-color: black;
+}
+
+.entradas label {
+  display: flex;
+  flex-direction: column;
+}
+
+.enviar {
+  border-radius: 5px;
+  border: none;
+  background-color: aqua;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.contato {
+  background-color: black;
+  height: 300px;
+  font-family: "Montserrat";
+}
+
+.titulo-contato {
+  color: aqua;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 50px;
+}
+
+.texto-contato {
+  color: white;
+  padding-left: 50px;
+  width: 400px;
+}
+
+.nome-bold {
+  font-weight: bolder;
+}
+
+.footer {
+  height: 150px;
+  background-color: aqua;
+  font-family: "Montserrat";
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 65px;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <p class="logoText">meu<span class="logoText2">game</span></p>
+      </div>
+
+      <nav class="menu">
+        <a href="#produtos">Produtos</a>
+        <a href="#article">Sobre</a>
+        <a href="#orcamento">Orçamentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <section class="image-container">
+      <img src="../assets/banner.png" class="banner" />
+    </section>
+
+    <main class="main">
+      <p>NOSSOS PRODUTOS</p>
+    </main>
+
+    <section class="section" id="section">
+      <div class="row1" id="produtos">
+        <div class="gamespicture">
+          <img
+            src="/assets/gamesPicture.png"
+            alt="Photo of three game cases"
+            width="400 px"
+          />
+          <p class="games">Jogos</p>
+        </div>
+
+        <div>
+          <img
+            src="/assets/peripheralsPicture.png"
+            alt="Photo of a keyboard, a mouse and a headset"
+            width="400px"
+          />
+          <p class="peripherals">Periféricos</p>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div>
+          <img
+            src="/assets/consolesPicture.png"
+            alt="Photo of consoles"
+            width="400px"
+          />
+          <p class="consoles">Consoles</p>
+        </div>
+
+        <div>
+          <img
+            src="/assets/actionsPicture.png"
+            alt="Photo of action figures"
+            width="400px"
+            height="400px"
+          />
+          <p class="actions">Action Figures</p>
+        </div>
+      </div>
+    </section>
+
+    <article class="article" id="article">
+      <div class="sobrenos">
+        <p class="titulo">SOBRE NÓS</p>
+        <br />
+        <div class="textoprincipal">
+          <p>
+            Bem-vindo à "Meu Game Brasil", sua loja especializada em tudo o que
+            os gamers e entusiastas da cultura geek adoram.
+          </p>
+          <br />
+          <p>
+            Aqui, oferecemos uma ampla seleção de jogos, periféricos de última
+            geração, consoles das principais marcas e colecionáveis exclusivos,
+            como figures action.
+          </p>
+          <br />
+          <p>
+            Nosso compromisso é proporcionar a você a melhor experiência de
+            compra, garantindo produtos de qualidade, atendimento personalizado
+            e a paixão que compartilhamos pelo universo dos games.
+          </p>
+          <br />
+          <p>
+            Na "Meu Game Brasil", você encontra não apenas produtos, mas também
+            um espaço para explorar e celebrar sua paixão pelos jogos.
+          </p>
+          <br />
+          <br />
+          <p class="frasefinal">
+            Junte-se a nós e mergulhe neste mundo fascinante!
+          </p>
+        </div>
+      </div>
+
+      <div class="fotofachada">
+        <img src="/assets/fachada.png" width="500px" />
+      </div>
+    </article>
+
+    <form class="formulario" id="orcamento">
+      <p class="titulo-formulario">SOLICITE UM ORÇAMENTO</p>
+
+      <div class="entradas">
+        <label class="label-nome"
+          >Nome: <input name="nome" id="nome" class="campo-nome" type="text"
+        /></label>
+
+        <label class="email"
+          >E-mail:
+
+          <input name="email" id="email" class="campo-email" type="email"
+        /></label>
+
+        <label class="telefone"
+          >Telefone:
+
+          <input
+            name="telefone"
+            id="telefone"
+            class="campo-telefone"
+            type="tel"
+        /></label>
+
+        <label class="produto"
+          >Produto:
+
+          <select name="selecionar-produto" class="selecionar-produto">
+            <option selected value="games">Jogos</option>
+            <option value="peripherals">Periféricos</option>
+            <option value="consoles">Consoles</option>
+            <option value="action-figures">Action Figures</option>
+          </select></label
+        >
+
+        <label class="anexos"
+          >Anexos
+
+          <input name="anexo" class="anexo" type="file"
+        /></label>
+
+        <label class="sua-mensagem"
+          >Sua mensagem:
+
+          <textarea rows="10" cols="50" name="mensagem" class="mensagem">
+          </textarea>
+        </label>
+
+        <button name="enviar" class="enviar" type="submit">Enviar</button>
+      </div>
+    </form>
+
+    <div class="contato" id="contato">
+      <p class="titulo-contato">CONTATOS</p>
+      <div class="texto-contato">
+        <p>Ficou com alguma dúvida?</p>
+        <p>Entre em contato conosco ou venha nos visitar!</p>
+        <br />
+        <p>(00) 9999-9999</p>
+        <p>contato@meugamebr.com</p>
+        <br />
+        <p class="nome-bold">Meu Game Brasil</p>
+        <p>Av. Benjamin Constant, 1234</p>
+        <p>Centro - Lajeado - RS - CEP: 95900-000</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2024 meugamebr.com.br. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Anderson Battisti - CRIE TI 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
